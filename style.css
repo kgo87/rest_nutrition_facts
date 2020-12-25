@@ -1,0 +1,127 @@
+/* Setting display properties for the entire body */
+body {
+    background-color: #d9dcd6;
+    margin:0 px;
+    padding:0px;
+    width: 100vw;
+    color:#25274d;
+}
+
+/* Setting customized display properties for jumbotron */
+.jumbotron{
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    color: white;
+    background-color: #29648A;
+    border-radius: 0px;
+}
+
+.bg{
+    background-image: url("cover3.jpg");
+    opacity: 80%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text-center {
+    padding-top: 400px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 0px;
+    font-style: oblique;
+    font-size: 120px;
+    font-stretch: extra-expanded;
+    font-weight: 600;
+    opacity:100%
+}
+
+
+
+/* Setting display properties for the main */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95vw;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.search-history {
+    width: 25vw;
+    margin: 10px;    
+}
+
+/* Setting display properties for the form */
+form {
+    width: 65vw;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+/* Setting background color for Search button */
+#button-addon2 {
+    background-color:grey;
+}
+
+
+
+/* Setting the display properties for the displayed */
+.city{
+    margin: 2px;
+    justify-content: center;
+    width:90%;
+    font-size: 20px;
+}
+
+/* Setting display properties for future conditions <div> */
+#menu_items {
+    display: flex;
+    width: 65vw;
+    margin:10px;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+/* Setting display properties for the cards in future conditions <div> */
+#menu_card{
+    background-color: grey;
+    color: white;
+    margin: 10px;
+}
+
+
+
+
+/* Changes page layout as the width of the screen reduces to 950px */
+/* @media screen and (max-width:950px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        width: 85vw;
+    }
+    #weather_info {
+        width: 85vw;
+    }
+    
+    #five_day_forecast {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        width:85vw;
+    }
+    #five_days_weather {
+        width:80vw;
+    }
+    .card-body{
+        flex-shrink: 2;
+    } */
+
+
+/* } */
