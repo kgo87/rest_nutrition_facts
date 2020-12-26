@@ -97,9 +97,9 @@ function renderMenu(full_menu) {
         const nf_serving_weight_grams = full_menu[i].fields.nf_serving_weight_grams;
 
         var menu_element = $(`
-        <div class="card w-50" id = "menu_card">
+        <div class="card w-75" id = "menu_card">
             <div class="card-body">
-                <h5 class="card-title">${item}</h5>
+                <h3 class="card-title">${item}</h3>
                 <p class="card-text">${"Calories: " + nf_calories}</p>
                 <p class="card-text">${"Cholesterol: " + nf_cholesterol}</p>
                 <p class="card-text">${"Sodium: " + nf_sodium}</p>
@@ -109,6 +109,7 @@ function renderMenu(full_menu) {
                 <p class="card-text">${"Total Fat: " + nf_total_fat}</p>
                 <p class="card-text">${"Calcium: " + nf_calcium_dv}</p>
                 <p class="card-text">${"Serving Size weight (g): " + nf_serving_weight_grams}</p>
+                <a href="#" class="btn btn-primary">Add to Favorites</a> <a href="favorites.html" class="btn btn-primary pull-right">View Favorites</a>
 
             </div>
       </div>`)

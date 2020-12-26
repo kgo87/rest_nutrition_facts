@@ -46,14 +46,10 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     width: 95vw;
-    margin-left: 20px;
-    margin-right:20px;
+    margin-left: 10px;
+    margin-right:10px;
 }
 
-.search-history {
-    width: 25vw;
-    margin: 10px;    
-}
 
 /* Setting display properties for the form */
 form {
@@ -63,34 +59,47 @@ form {
 }
 
 /* Setting background color for Search button */
-#button-addon2 {
-    background-color:grey;
+#button-addon2,
+.btn-primary {
+    background-color: #29648A;
 }
 
-
-
-/* Setting the display properties for the displayed */
-.city{
-    margin: 2px;
-    justify-content: center;
-    width:90%;
-    font-size: 20px;
+#contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 95vw;
 }
+
 
 /* Setting display properties for future conditions <div> */
-#menu_items {
+#search_results {
     display: flex;
-    width: 65vw;
-    margin:10px;
+    width: 95vw;
+    margin: 10px;
+    margin-left: 20px;
     flex-direction: column;
     justify-content:space-between;
 }
 
+
+#favorites {
+    width: 20vw;
+    margin:20px;
+}
+
 /* Setting display properties for the cards in future conditions <div> */
 #menu_card{
-    background-color: grey;
+    /* background-color: #379683; */
+    background-color: #007849;
     color: white;
     margin: 10px;
+}
+
+.card-title {
+    font-style: oblique;
+    text-decoration: underline;
 }
 
 
